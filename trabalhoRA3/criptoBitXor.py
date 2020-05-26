@@ -10,6 +10,7 @@ chave = 'KROM'
 
 
 def rf01(text, key):
+    text = text.upper()
     ct = 0
     cripto = ''
     for char in text:
